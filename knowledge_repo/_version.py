@@ -27,6 +27,7 @@ __dependencies__ = [
     'tabulate',  # Rendering information prettily in knowledge_repo script
     'pyyaml',  # Used to configure knowledge repositories
     'cooked_input',  # Used for interactive input from user in CLI tooling
+    'psycopg2',  # Used for interactive input from user in CLI tooling
 
     # Flask App Dependencies
     'Flask>=1.1.1',  # Main flask framework
