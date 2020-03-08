@@ -4,8 +4,8 @@
 }
 
 .navbar {
-    background-color: #565a5c;
-    border-color: #565a5c;
+    background-color: #000000;
+    border-color: #000000;
     color: #fff;
     box-shadow: 0px 1px 5px rgba(0,0,0,0.5);
     z-index: 10000;
@@ -15,7 +15,7 @@
 }
 .navbar .navbar-brand {
   float: none;
-  color: #fff;
+  color: #fff900;
   display: flex;
   align-items: center;
   padding-left: 0px;
@@ -238,7 +238,7 @@
     transition: color 0.2s;
 }
 .side-panel a:hover {
-    color: #00a699;
+    color: #c7c214;
     transition: color 0.3s;
 }
 .side-panel a.highlight {
@@ -252,7 +252,7 @@
 /* navbar elements*/
 .navbar-knowledge, .navbar-text, .glyphicon-navbar {
   color: #cacccd;
-  background-color: #565a5c;
+  background-color: #000000;
   border-radius: 0px;
 }
 
@@ -264,20 +264,21 @@
 
 .footer {
     text-align: center;
-    color: #565a5c;
+    background-color: #000000;
+    color: #fff900;
     padding: 20px;
 }
 
 .panel {
   border: 1px solid #dce0e0;
-  color: #565a5c;
+  color: #000000;
   background-color: white;
   border-radius: 0;
   margin-bottom: 0px;
 }
 
 .panel-header {
-    color: #565a5c;
+    color: #000000;
     font-size: 16px;
     padding-top: 14px;
     padding-bottom: 14px;
@@ -305,7 +306,7 @@
 }
 
 body {
-  color: #565a5c;
+  color: #000000;
   background-color: whitesmoke;
   font-size: 12pt;
   font-family: 'Lato', sans-serif;
@@ -313,7 +314,7 @@ body {
 }
 
 a {
-  color: #00a699;
+  color: #c7c214;
   text-decoration: none;
 }
 
@@ -372,8 +373,8 @@ img {
 }
 
 a.label:focus, a.label:hover {
-    color: #00A699;
-    border-color: #00A699;
+    color: #c7c214;
+    border-color: #c7c214;
     background-color: #fff;
     opacity: 1;
 }
@@ -389,15 +390,15 @@ a.label:focus, a.label:hover {
 }
 
 .label-tag[href]:hover {
-  color: #00A699;
-  border-color: #00A699;
+  color: #c7c214;
+  border-color: #c7c214;
   background-color: #fff;
   opacity: 1;
 }
 
 .label-subscribed {
   color: white;
-  background-color: #00A699;
+  background-color: #c7c214;
   opacity: 0.7;
 }
 
@@ -408,21 +409,21 @@ a.label:focus, a.label:hover {
 
 .btn-primary {
   color: #fff;
-  background-color: #00A699;
-  border: 1px solid #00A699;
+  background-color: #c7c214;
+  border: 1px solid #c7c214;
 }
 
 .btn.btn-default.btn-subscribe,
 .btn.btn-default.btn-subscribe:hover {
   background-color: #fff;
-  border: 1px solid #00A699;
-  color: #00A699;
+  border: 1px solid #c7c214;
+  color: #c7c214;
 }
 
 .btn-unsubscribe,
 .btn-unsubscribe:hover {
-  background-color: #00A699;
-  border: 1px solid #00A699;
+  background-color: #c7c214;
+  border: 1px solid #c7c214;
   color: #fff;
 }
 
@@ -597,11 +598,11 @@ span.index-view-name {
 
 .btn-active, .btn-active > span {
   color: white;
-  background-color: #00a699;
+  background-color: #c7c214;
 }
 
 .btn-active:hover {
-  background-color: #00a699;
+  background-color: #c7c214;
   opacity: 0.8;
 }
 
@@ -629,15 +630,17 @@ margin: 0px;
   display: block;
 }
 .pagination li a {
-  color: #00a699;
+  color: #c7c214;
 }
 .pagination .active a {
-background-color: #00a699;
-border-color: #00a699;
+background-color: #c7c214;
+border-color: #c7c214;
+color: #000000;
 }
 .pagination .active a:hover {
 background-color: #11b6a2;
 border-color: #11b6aa;
+color: #000000;
 }
 
 .page-btn {
@@ -741,7 +744,7 @@ border-color: #11b6aa;
 }
 
 .glyphicon-edit, .glyphicon-remove {
-  color: #565A5C;
+  color: #000000;
 }
 
 #post_comment_btn,
@@ -754,14 +757,14 @@ border-color: #11b6aa;
 #btn_publish:hover,
 #btn_publish.btn-primary,
 .btn-email-reviewers{
-  background-color: #00a699;
-  border: 1px solid #00a699;
+  background-color: #c7c214;
+  border: 1px solid #c7c214;
   color: #fff;
 }
 
 .create-btn-group > a {
-  background-color: #00A699;
-  border: 1px solid #00A699;
+  background-color: #c7c214;
+  border: 1px solid #c7c214;
 }
 
 .btn[data-target*='#show_posts_']:active,
