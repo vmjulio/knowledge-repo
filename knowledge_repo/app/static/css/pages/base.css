@@ -4,8 +4,8 @@
 }
 
 .navbar {
-    background-color: #000000;
-    border-color: #000000;
+    background-color: #565a5c;
+    border-color: #565a5c;
     color: #fff;
     box-shadow: 0px 1px 5px rgba(0,0,0,0.5);
     z-index: 10000;
@@ -15,7 +15,7 @@
 }
 .navbar .navbar-brand {
   float: none;
-  color: #fff900;
+  color: #fff;
   display: flex;
   align-items: center;
   padding-left: 0px;
@@ -238,7 +238,7 @@
     transition: color 0.2s;
 }
 .side-panel a:hover {
-    color: #c7c214;
+    color: #00a699;
     transition: color 0.3s;
 }
 .side-panel a.highlight {
@@ -252,7 +252,7 @@
 /* navbar elements*/
 .navbar-knowledge, .navbar-text, .glyphicon-navbar {
   color: #cacccd;
-  background-color: #000000;
+  background-color: #565a5c;
   border-radius: 0px;
 }
 
@@ -264,21 +264,20 @@
 
 .footer {
     text-align: center;
-    background-color: #000000;
-    color: #fff900;
+    color: #565a5c;
     padding: 20px;
 }
 
 .panel {
   border: 1px solid #dce0e0;
-  color: #000000;
+  color: #565a5c;
   background-color: white;
   border-radius: 0;
   margin-bottom: 0px;
 }
 
 .panel-header {
-    color: #000000;
+    color: #565a5c;
     font-size: 16px;
     padding-top: 14px;
     padding-bottom: 14px;
@@ -306,7 +305,7 @@
 }
 
 body {
-  color: #000000;
+  color: #565a5c;
   background-color: whitesmoke;
   font-size: 12pt;
   font-family: 'Lato', sans-serif;
@@ -314,7 +313,7 @@ body {
 }
 
 a {
-  color: #c7c214;
+  color: #00a699;
   text-decoration: none;
 }
 
@@ -373,8 +372,8 @@ img {
 }
 
 a.label:focus, a.label:hover {
-    color: #c7c214;
-    border-color: #c7c214;
+    color: #00A699;
+    border-color: #00A699;
     background-color: #fff;
     opacity: 1;
 }
@@ -390,15 +389,15 @@ a.label:focus, a.label:hover {
 }
 
 .label-tag[href]:hover {
-  color: #c7c214;
-  border-color: #c7c214;
+  color: #00A699;
+  border-color: #00A699;
   background-color: #fff;
   opacity: 1;
 }
 
 .label-subscribed {
   color: white;
-  background-color: #c7c214;
+  background-color: #00A699;
   opacity: 0.7;
 }
 
@@ -409,21 +408,21 @@ a.label:focus, a.label:hover {
 
 .btn-primary {
   color: #fff;
-  background-color: #c7c214;
-  border: 1px solid #c7c214;
+  background-color: #00A699;
+  border: 1px solid #00A699;
 }
 
 .btn.btn-default.btn-subscribe,
 .btn.btn-default.btn-subscribe:hover {
   background-color: #fff;
-  border: 1px solid #c7c214;
-  color: #c7c214;
+  border: 1px solid #00A699;
+  color: #00A699;
 }
 
 .btn-unsubscribe,
 .btn-unsubscribe:hover {
-  background-color: #c7c214;
-  border: 1px solid #c7c214;
+  background-color: #00A699;
+  border: 1px solid #00A699;
   color: #fff;
 }
 
@@ -598,11 +597,11 @@ span.index-view-name {
 
 .btn-active, .btn-active > span {
   color: white;
-  background-color: #c7c214;
+  background-color: #00a699;
 }
 
 .btn-active:hover {
-  background-color: #c7c214;
+  background-color: #00a699;
   opacity: 0.8;
 }
 
@@ -630,17 +629,15 @@ margin: 0px;
   display: block;
 }
 .pagination li a {
-  color: #c7c214;
+  color: #00a699;
 }
 .pagination .active a {
-background-color: #c7c214;
-border-color: #c7c214;
-color: #000000;
+background-color: #00a699;
+border-color: #00a699;
 }
 .pagination .active a:hover {
 background-color: #11b6a2;
 border-color: #11b6aa;
-color: #000000;
 }
 
 .page-btn {
@@ -744,7 +741,7 @@ color: #000000;
 }
 
 .glyphicon-edit, .glyphicon-remove {
-  color: #000000;
+  color: #565A5C;
 }
 
 #post_comment_btn,
@@ -757,14 +754,14 @@ color: #000000;
 #btn_publish:hover,
 #btn_publish.btn-primary,
 .btn-email-reviewers{
-  background-color: #c7c214;
-  border: 1px solid #c7c214;
+  background-color: #00a699;
+  border: 1px solid #00a699;
   color: #fff;
 }
 
 .create-btn-group > a {
-  background-color: #c7c214;
-  border: 1px solid #c7c214;
+  background-color: #00A699;
+  border: 1px solid #00A699;
 }
 
 .btn[data-target*='#show_posts_']:active,
