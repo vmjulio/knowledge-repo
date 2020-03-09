@@ -238,7 +238,7 @@
     transition: color 0.2s;
 }
 .side-panel a:hover {
-    color: #000000;
+    color: #c7c214;
     transition: color 0.3s;
 }
 .side-panel a.highlight {
@@ -254,6 +254,10 @@
   color: #cacccd;
   background-color: #000000;
   border-radius: 0px;
+}
+
+.navbar-text[href]:hover {
+  color: white;
 }
 
 /* footer elements */
@@ -315,8 +319,8 @@ a {
 }
 
 a:hover {
-  color: #fbaf00;
-  opacity: 0.8;
+  color: #9CA299;
+  opacity: 0.5;
   text-decoration: none;
 }
 
@@ -593,8 +597,8 @@ span.index-view-name {
 }
 
 .btn-active, .btn-active > span {
-  color: #000000;
-  background-color: #fff900;
+  color: white;
+  background-color: #c7c214;
 }
 
 .btn-active:hover {
@@ -626,16 +630,16 @@ margin: 0px;
   display: block;
 }
 .pagination li a {
-  color: #000000;
+  color: #c7c214;
 }
 .pagination .active a {
-background-color: #11b6a2;
-border-color: #11b6aa;
+background-color: #c7c214;
+border-color: #c7c214;
 color: #000000;
 }
 .pagination .active a:hover {
-background-color: #fff900;
-border-color: #fff900;
+background-color: #11b6a2;
+border-color: #11b6aa;
 color: #000000;
 }
 
